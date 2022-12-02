@@ -11,4 +11,9 @@ public class HelloController {
     protected void onHelloButtonClick() {
         welcomeText.setText("Hello FX App!");
     }
+
+    @FXML
+    protected void onNextSceneButtonClick(){
+        welcomeText.setText("Next Scene coming soon.");
+    }
 }
